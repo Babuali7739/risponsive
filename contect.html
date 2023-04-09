@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+      <script src="https://kit.fontawesome.com/1ebd0e0c54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="indax.html"><h4>INSTITUTION</h4></a>
+            <ul class="nav_menu">
+                <li><a href="indax.html">Home</a>
+                
+                </li>
+                <li><a href="aboutl.html">About  
+                </a>
+                    
+                </li>
+                <li><a href="contect.html">Contect</a></li>
+                <li><a href="corses.html">Courses</a></li>
+            </ul>
+            <button id="nav_open"> <i class="fas fa-bars"></i></button>
+            <button id="nav_close"> <i class="fas fa-x"></i></button>
+            
+        </div>
+    </nav>
+
+
+
+<section class="contact">
+    <div class="container contact_container">
+        <aside class="contact_aside">
+            <div class="aside_img">
+                <img src="/images/contact.svg" alt="">
+            </div>
+            <h2>Contact Us</h2>
+            <p>Asperiores veniam vel doloribus assumenda soluta blandittis dilores qui viruptates, consequatur vitae</p>
+            <ul class="contact_details">
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <h5>+91 7739067097</h5>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>babuali91929394@gmial.com</h5>
+
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5>Greater Noida</h5>
+                </li>
+                <ul class="contact_socials">
+                    <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+            </ul>
+        </aside>
+
+
+        <form action="https://formspree.io/f/mvonvzen" class="contact_form" method="POST">
+            <div class="form_name">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="Email Address" placeholder="Your Email Address" required>
+            <textarea name="Massage" id=""  rows="7" required></textarea>
+            <button  type="submit" class="btn">Send Massage</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------footer----------------- -->
+<footer class="footer">
+    <div class="container footer_container">
+       <div class="footer_1">
+        <a href="indax.html"><h3>Istitution</h3></a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis necessitatibus quod cum deserunt! Tempora reiciendis quam eos voluptate fugit consequatur,</p>
+       </div>
+
+       <div class="footer_2">
+        <h3>Permalinks</h3>
+        <ul>
+            <li> <a href="indax.html">Home</a></li>
+            <li> <a href="about.css">About</a></li>
+            <li> <a href="corses.css">Courses</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+       </div>
+
+       <div class="footer_3">
+        <h3>Primacy</h3>
+        <ul>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#">Terms and condition</a>
+            </li>
+            <li>
+                <a href="#">Refund Policy</a>
+            </li>
+        </ul>
+       </div>
+
+       <div class="footer_4">
+        <h3>Contact Us</h3>
+        <p>7739067097</p>
+        <p>babuali91929394@gmail.con</p>
+
+        <ul>
+
+            <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""> <i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""> <i class="fa-brands fa-square-instagram"></i></a></li>
+            
+        </ul>
+       </div>
+       
+    </div>
+    <hr>
+    <p class="copy"> Copyright &copy; resurved Institution.com</p>
+</footer>
+
+<script src="./main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      breakpoints: {
+        600 :{
+            slidesPerView: 2,
+        }
+       
+      }
+    });
+  </script>
+    
+</body>
+</html>
